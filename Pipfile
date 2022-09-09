@@ -4,10 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-fastapi = "*"
-uvicorn = {extras = ["standard"], version = "*"}
-
-[dev-packages]
+fastapi = "0.82.0"
+pydantic = "1.10.2"
+boto3 = "1.24.68"
+uvicorn = {extras = ["standard"], version = "0.18.3"}
 
 [requires]
 python_version = "3.9"
